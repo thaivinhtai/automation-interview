@@ -1,0 +1,8 @@
+receiver_credential
+.venv/
+logs/
+documentations/
+__pycache__/
+*.log
+.idea/
+*.apk
