@@ -63,5 +63,5 @@ def get_undetected_chrome() -> webdriver:
     """This function establishes chrome browser."""
     return get_chromium_driver(
         chromium_options=ChromeOptions(),
-        chromium_driver=Chrome, headless=False, driver=get_chromedriver()
+        chromium_driver=Chrome, headless=True, driver=get_chromedriver()
     )
